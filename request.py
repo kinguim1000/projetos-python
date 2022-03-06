@@ -29,7 +29,7 @@ for toDo in requisicaojson:
 
                 
 
-for remover in range (numuser+1):#remover quem não é o maior
+for remover in range (numuser+1):#remover quem não é o "vencedor"
     verigualdade = set(lideranca)
     contemduplicado = len(lideranca) != len(verigualdade)
     if(contemduplicado):
